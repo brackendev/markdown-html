@@ -23,7 +23,6 @@
 
 (defn html->md [html]
       (.makeMarkdown showdown-converter html))
-;; --- Showdown end ---
 
 ;; https://hackernoon.com/copying-text-to-clipboard-with-javascript-df4d4988697f
 (defn copy-to-clipboard [s]
