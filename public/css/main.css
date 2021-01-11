@@ -1,0 +1,81 @@
+textarea {
+    outline: none;
+    resize: none;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card {
+    padding: 0;
+}
+
+.container-content {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#row-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-link {
+    border: none;
+    outline: none;
+    background: none;
+    color: #222;
+}
+
+.btn-link:hover {
+    border: none;
+    outline: none;
+    background: none;
+    color: #008cba;
+}
+
+.btn-link:active {
+    border: none;
+    outline: none;
+    background: #fff;
+}
+
+.avatar {
+    width: 20px;
+    margin: 0px;
+    border: 1px solid white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    flex: 0 0 60px;
+    background-color: lightgray;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 0px;
+    vertical-align: middle;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #008cba;
+    display: flex;
+    flex-direction: column;
+}

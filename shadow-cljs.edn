@@ -1,0 +1,17 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[reagent "0.9.1"]]
+
+ :dev-http {9090 "public/"}
+
+ :builds
+ {:app {:output-dir "public/compiledjs/"
+        :asset-path "compiledjs"
+        :target :browser
+        :modules {:main {:init-fn markdowneditor.main/main!}}
+        :devtools {:after-load markdowneditor.main/reload!}}}}
